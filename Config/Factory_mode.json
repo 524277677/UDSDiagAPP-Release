@@ -1,0 +1,48 @@
+{
+  "ScannerPort": "COM3",
+  "ScannerBaudRate": 115200,
+  "UTV": {
+    "Manufacturer_Number": 200,
+    "VehicleModeList": [
+      "UW802",
+      "UW802F",
+      "UW1104",
+      "UW1104F",
+      "UC1104",
+      "UC1104F",
+      "UE1104",
+      "UE1104F",
+      "UT1104",
+      "UT1104F"
+    ],
+    "EnableCANID": "0x2E5",
+    "SN_EnableByte": "0x01",
+    "Model_EnableByte": "0x02",
+    "SN_DataCANID": "0x2C5",
+    "Model_DataCANID": "0x2D5",
+    "SN_FeedbackCANID": "0x531",
+    "Model_FeedbackCANID": "0x541",
+    "FeedbackTimeoutMs": 2000
+  },
+  "ZTR": {
+    "Manufacturer_Number": 100,
+    "VehicleModeList": [
+      "OZ972R",
+      "OZ792B"
+    ],
+    "ExtendedVehicleModeList": [
+      "AA",
+      "BB",
+      "CC",
+      "DD"
+    ],
+    "EnableCANID": "0x2E5",
+    "SN_EnableByte": "0x01",
+    "Model_EnableByte": "0x02",
+    "SN_DataCANID": "0x2C5",
+    "Model_DataCANID": "0x2D5",
+    "SN_FeedbackCANID": "0x499",
+    "Model_FeedbackCANID": "0x511",
+    "FeedbackTimeoutMs": 2000
+  }
+}

@@ -7,7 +7,6 @@
         "Function_request": "0x7DF",
         "mask": "0x474c5a4b",
         "AppChannel": "0",
-        "version": "901",
         "ECode": "E6500001"
       },
       "BMS": {
@@ -16,7 +15,6 @@
         "Function_request": "0x7DF",
         "mask": "0x474C4C47",
         "AppChannel": "1",
-        "version": "005",
         "ECode": "E6500002"
       },
       "OBC": {
@@ -25,7 +23,6 @@
         "Function_request": "0x7DF",
         "mask": "0x474C5443",
         "AppChannel": "1",
-        "version": "001",
         "ECode": "E6500003"
       },
       "EPS": {
@@ -34,7 +31,6 @@
         "Function_request": "0x7DF",
         "mask": "0x474C4446",
         "AppChannel": "1",
-        "version": "012",
         "ECode": "E6500004"
       },
       "FMCU": {
@@ -43,7 +39,6 @@
         "Function_request": "0x7DF",
         "mask": "0x474c4854",
         "AppChannel": "1",
-        "version": "901",
         "ECode": "E6500005"
       },
       "RMCU": {
@@ -52,7 +47,6 @@
         "Function_request": "0x7DF",
         "mask": "0x474c4854",
         "AppChannel": "1",
-        "version": "902",
         "ECode": "E6500006"
       },
       "TMS": {
@@ -61,7 +55,6 @@
         "Function_request": "0x7DF",
         "mask": "0x474c4b53",
         "AppChannel": "0",
-        "version": "046",
         "ECode": "E6500007"
       },
       "DS": {
@@ -70,7 +63,22 @@
         "Function_request": "0x7DF",
         "mask": "0x474C5953",
         "AppChannel": "1",
-        "version": "040",
+        "ECode": "E6500008"
+      },
+      "EPB": {
+        "Physical_request": "0x71A",
+        "Physical_response": "0x72A",
+        "Function_request": "0x7DF",
+        "mask": "0x474C5944",
+        "AppChannel": "1",
+        "ECode": "E6500008"
+      },
+      "TBOX": {
+        "Physical_request": "0x775",
+        "Physical_response": "0x785",
+        "Function_request": "0x7DF",
+        "mask": "0x474C4854",
+        "AppChannel": "0",
         "ECode": "E6500008"
       }
     },
@@ -81,7 +89,6 @@
         "Function_request": "0x7DF",
         "mask": "0x474c5a4b",
         "AppChannel": "0",
-        "version": "901",
         "ECode": ""
       },
       "BMS": {
@@ -90,7 +97,6 @@
         "Function_request": "0x7DF",
         "mask": "0x474C4C47",
         "AppChannel": "1",
-        "version": "005",
         "ECode": ""
       },
       "OBC": {
@@ -99,7 +105,6 @@
         "Function_request": "0x7DF",
         "mask": "0x474C5443",
         "AppChannel": "1",
-        "version": "001",
         "ECode": ""
       },
       "EPS": {
@@ -108,7 +113,6 @@
         "Function_request": "0x7DF",
         "mask": "0x474C4446",
         "AppChannel": "0",
-        "version": "012",
         "ECode": ""
       },
       "FMCU": {
@@ -117,16 +121,14 @@
         "Function_request": "0x7DF",
         "mask": "0x474C5A4B",
         "AppChannel": "0",
-        "version": "901",
         "ECode": ""
       },
-	   "RMCU": {
+      "RMCU": {
         "Physical_request": "0x713",
         "Physical_response": "0x723",
         "Function_request": "0x7DF",
         "mask": "0x474c4854",
-        "AppChannel": "1",
-        "version": "902"
+        "AppChannel": "1"
       },
       "DS": {
         "Physical_request": "0x735",
@@ -134,9 +136,25 @@
         "Function_request": "0x7DF",
         "mask": "0x474C5953",
         "AppChannel": "1",
-        "version": "040",
         "ECode": ""
+      },
+      "EPB": {
+        "Physical_request": "0x71A",
+        "Physical_response": "0x72A",
+        "Function_request": "0x7DF",
+        "mask": "0x474C5944",
+        "AppChannel": "1",
+        "ECode": "E6500008"
+      },
+      "TBOX": {
+        "Physical_request": "0x775",
+        "Physical_response": "0x785",
+        "Function_request": "0x7DF",
+        "mask": "0x474C4854",
+        "AppChannel": "0",
+        "ECode": "E6500008"
       }
+
     }
   },
   "DID_Info": {
@@ -148,51 +166,69 @@
   "ECU_Version": {
     "VCU": {
       "CANID": "0x511",
-      "AppChannel": "0"
+      "AppChannel": "0",
+      "version": "904"
     },
     "BMS": {
       "CANID": "0x519",
-      "AppChannel": "1"
+      "AppChannel": "1",
+      "version": "007"
     },
     "OBC": {
       "CANID": "0x517",
-      "AppChannel": "1"
+      "AppChannel": "1",
+      "version": "001"
     },
     "EPS": {
       "CANID": "0x504",
-      "AppChannel": "1"
+      "AppChannel": "1",
+      "version": "012"
     },
     "EPB": {
       "CANID": "0x51A",
-      "AppChannel": "1"
+      "AppChannel": "1",
+      "version": "003"
     },
     "LCM": {
       "CANID": "0x51E",
-      "AppChannel": "0"
+      "AppChannel": "0",
+      "version": "005"
     },
     "FMCU": {
       "CANID": "0x512",
-      "AppChannel": "1"
+      "AppChannel": "1",
+      "version": "901"
     },
     "RMCU": {
       "CANID": "0x513",
-      "AppChannel": "1"
+      "AppChannel": "1",
+      "version": "902"
     },
     "TMS": {
       "CANID": "0x518",
-      "AppChannel": "0"
+      "AppChannel": "0",
+      "version": "046"
     },
     "DS": {
       "CANID": "0x5B5",
-      "AppChannel": "1"
+      "AppChannel": "1",
+      "version": "042"
     },
     "CCS": {
       "CANID": "0x515",
-      "AppChannel": "0"
+      "AppChannel": "1",
+      "version": "001"
     },
-	"TBOX": {
+    "TBOX": {
       "CANID": "0x51C",
-      "AppChannel": "0"
+      "AppChannel": "0",
+      "version": "001"
+    },
+    "Winch": {
+      "CANID": "0x5BE",
+      "AppChannel": "0",
+      "version": "002"
     }
+
   }
 }

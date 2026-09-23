@@ -1,6 +1,30 @@
 {
   "ScannerPort": "COM3",
-  "ScannerBaudRate": 115200,
+  "ScannerBaudRate": 9600,
+  "VehicleECUMap": {
+    "UW1104F": [ "VCU", "BMS", "OBC", "EPS", "FMCU", "RMCU", "TMS", "DS", "EPB", "LCM", "CCS", "TBOX", "Winch" ],
+    "UW1104": [ "VCU", "BMS", "OBC", "EPS", "FMCU", "RMCU", "DS", "EPB", "LCM", "CCS", "TBOX", "Winch" ],
+    "UW802": [ "VCU", "BMS", "OBC", "EPS", "RMCU", "DS", "EPB", "LCM", "CCS"]
+  },
+  "TBOX": {
+    "ExportFolder": "TboxExport",
+    "EntryId": "000001",
+    "FilePrefix": "DeviceRegistration",
+    "IdStart": 1001,
+    "DefaultModelNumber": "1",
+    "ModelNumberMap": {
+      "UW802": "1",
+      "UW802F": "2",
+      "UW1104": "3",
+      "UW1104F": "4",
+      "UC1104": "5",
+      "UC1104F": "6",
+      "UE1104": "7",
+      "UE1104F": "8",
+      "UT1104": "9",
+      "UT1104F": "10"
+    }
+  },
   "UTV": {
     "Manufacturer_Number": 200,
     "VehicleModeList": [

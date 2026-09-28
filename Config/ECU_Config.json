@@ -72,14 +72,6 @@
         "mask": "0x474C5944",
         "AppChannel": "1",
         "ECode": "E6500008"
-      },
-      "TBOX": {
-        "Physical_request": "0x775",
-        "Physical_response": "0x785",
-        "Function_request": "0x7DF",
-        "mask": "0x474C4854",
-        "AppChannel": "0",
-        "ECode": "E6500008"
       }
     },
     "UW1104": {
@@ -145,14 +137,6 @@
         "mask": "0x474C5944",
         "AppChannel": "1",
         "ECode": "E6500008"
-      },
-      "TBOX": {
-        "Physical_request": "0x775",
-        "Physical_response": "0x785",
-        "Function_request": "0x7DF",
-        "mask": "0x474C4854",
-        "AppChannel": "0",
-        "ECode": "E6500008"
       }
 
     }
@@ -187,7 +171,7 @@
     "EPB": {
       "CANID": "0x51A",
       "AppChannel": "1",
-      "version": "003"
+      "version": "002"
     },
     "LCM": {
       "CANID": "0x51E",
@@ -222,7 +206,7 @@
     "TBOX": {
       "CANID": "0x51C",
       "AppChannel": "0",
-      "version": "001"
+      "version": "008"
     },
     "Winch": {
       "CANID": "0x5BE",

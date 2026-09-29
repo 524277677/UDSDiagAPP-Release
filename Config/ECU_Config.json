@@ -104,7 +104,7 @@
         "Physical_response": "0x724",
         "Function_request": "0x7DF",
         "mask": "0x474C4446",
-        "AppChannel": "0",
+        "AppChannel": "1",
         "ECode": ""
       },
       "FMCU": {

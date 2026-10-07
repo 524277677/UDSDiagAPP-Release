@@ -1,6 +1,6 @@
 {
   "parameters": {
-    "UW1104F": {
+    "UW1104FA1": {
       "VCU": {
         "Physical_request": "0x71D",
         "Physical_response": "0x79D",
@@ -74,7 +74,7 @@
         "ECode": "E6500008"
       }
     },
-    "UW1104": {
+    "UW1104A1": {
       "VCU": {
         "Physical_request": "0x71D",
         "Physical_response": "0x79D",

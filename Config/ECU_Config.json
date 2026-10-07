@@ -152,7 +152,7 @@
     "VCU": {
       "CANID": "0x511",
       "AppChannel": "0",
-      "version": "904"
+      "version": "905"
     },
     "BMS": {
       "CANID": "0x519",

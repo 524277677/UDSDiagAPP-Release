@@ -111,8 +111,8 @@
         "Physical_request": "0x712",
         "Physical_response": "0x722",
         "Function_request": "0x7DF",
-        "mask": "0x474C5A4B",
-        "AppChannel": "0",
+        "mask": "0x474c4854",
+        "AppChannel": "1",
         "ECode": ""
       },
       "RMCU": {
@@ -120,7 +120,8 @@
         "Physical_response": "0x723",
         "Function_request": "0x7DF",
         "mask": "0x474c4854",
-        "AppChannel": "1"
+        "AppChannel": "1",
+        "ECode": ""
       },
       "DS": {
         "Physical_request": "0x735",
@@ -151,7 +152,7 @@
     "VCU": {
       "CANID": "0x511",
       "AppChannel": "0",
-      "version": "905"
+      "version": "904"
     },
     "BMS": {
       "CANID": "0x519",
@@ -200,7 +201,7 @@
     },
     "CCS": {
       "CANID": "0x515",
-      "AppChannel": "1",
+      "AppChannel": "0",
       "version": "001"
     },
     "TBOX": {

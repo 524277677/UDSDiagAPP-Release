@@ -151,12 +151,12 @@
     "VCU": {
       "CANID": "0x511",
       "AppChannel": "0",
-      "version": "904"
+      "version": "905"
     },
     "BMS": {
       "CANID": "0x519",
       "AppChannel": "1",
-      "version": "007"
+      "version": "109"
     },
     "OBC": {
       "CANID": "0x517",
@@ -181,12 +181,12 @@
     "FMCU": {
       "CANID": "0x512",
       "AppChannel": "1",
-      "version": "901"
+      "version": "902"
     },
     "RMCU": {
       "CANID": "0x513",
       "AppChannel": "1",
-      "version": "902"
+      "version": "903"
     },
     "TMS": {
       "CANID": "0x518",

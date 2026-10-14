@@ -3,7 +3,7 @@
   "files": [
     "Config/ECU_Config.json",
     "Config/Factory_mode.json",
-    "doc/Program documentation/全新整车CAN通信协议G22 20260806.xlsx"
+    "doc/Program documentation/全新整车CAN通信协议G22 故障码完全变更版.xlsx"
   ],
   "ecuprogram_vehicles": {
     "UW1104S1": [

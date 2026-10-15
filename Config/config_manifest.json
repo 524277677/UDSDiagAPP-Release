@@ -1,9 +1,7 @@
 {
-  "version": "20261014-2",
+  "version": "",
   "files": [
-    "Config/ECU_Config.json",
-    "Config/Factory_mode.json",
-    "doc/Program documentation/全新整车CAN通信协议G22 故障码完全变更版.xlsx"
+    
   ],
   "ecuprogram_dirs": {
     "UW1104S1/VCU/APP": ["vcu_S906_20261081649.mot"]
